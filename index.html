@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación de DOM básico</title>
+</head>
+<body>
+    <h1>Manipulación de DOM básico</h1>
+    <p>Esto es un párrafo</p>
+    <p class="parrafito"> Párrafo con clase</p>
+    <p id="pid">Párrafo con id</p><br><br><br>
+    <input id="calcular1" type="text" placeholder="Ingresa un número">
+    <input id="calcular2" type="text" placeholder="Ingresa un número" onchange="console.log('Cámbio en el input')">
+
+    <button id="btnCalcular" onclick="bntOnClic()">Calcular</button>
+    <p id="resultado"></p>
+
+    <button id="btnEvent">Cacular nueva</button>
+
+<!--  clase add even listener    -->
+
+
+    <script src="dom.js"></script>
+    <script src="addeventlistener.js"></script>
+</body>
+</html>

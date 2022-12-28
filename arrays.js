@@ -1,0 +1,1 @@
+var furtas = ["tuna","platano","coco"];
